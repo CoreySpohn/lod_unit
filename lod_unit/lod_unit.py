@@ -2,12 +2,12 @@ import astropy.units as u
 from astropy.units.equivalencies import Equivalency
 
 # Creating a unit for lambda/D
-lod = u.def_unit("lambda/D")
+lod = u.def_unit("λ/D")
 
 
 def lod_eq(lam, D):
     """
-    Function to allow conversion between lambda/D and angular units natively
+    Function to allow conversion between λ/D and angular units natively
     with the astropy units package
     Args:
         ulod (Astropy Unit):
@@ -17,7 +17,7 @@ def lod_eq(lam, D):
         D (Astropy Quantity):
             Diameter
     Returns:
-        An astropy Equivalency object to allow conversion between lambda/D and
+        An astropy Equivalency object to allow conversion between λ/D and
         angular units
     Usage:
         >>> diam = 10*u.m
