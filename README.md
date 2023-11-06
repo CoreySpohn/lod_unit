@@ -1,5 +1,5 @@
 # lod_unit
-This is set up to make it easy to keep coronagraph information in λ/D space with an astropy unit called `lod`. It makes it easy to convert into angular units with an astropy Equivalency relationship `lod_eq`.
+This is set up to make it easy to keep coronagraph information in λ/D space with an astropy unit called `lod`. Convert into angular units (or vise versa) with an astropy Equivalency relationship `lod_eq`.
 
 Typical use will look something like:
 ```
