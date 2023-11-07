@@ -4,7 +4,7 @@ requires = ["setuptools", "wheel"]
 [project]
 name = "lod_unit"
 version = "0.1.0"
-description = "A simple python library with an astropy unit for lambda/D"
+description = "A simple python library with an astropy unit for λ/D"
 authors = [
     {name = "Corey Spohn", email = "corey.a.spohn@nasa.gov"}
 ]

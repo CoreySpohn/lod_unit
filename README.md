@@ -1,7 +1,13 @@
 # lod_unit
 This is set up to make it easy to keep coronagraph information in λ/D space with an astropy unit called `lod`. Convert into angular units (or vise versa) with an astropy Equivalency relationship `lod_eq`.
 
-Typical use will look something like:
+# Installation
+`
+pip install lod_unit
+`
+
+# Use
+Typical use will look like
 ```
 import astropy.units as u
 from lod_unit.lod_unit import lod, lod_eq
