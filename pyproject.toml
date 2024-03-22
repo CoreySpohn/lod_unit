@@ -1,13 +1,12 @@
 [build-system]
-requires = ["hatchling", "hatch-fancy-pypi-readme"]
+requires = ["hatchling", "hatch-fancy-pypi-readme", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
 name = "lod_unit"
-version = "1.0.4"
 description = "A simple python library with an astropy unit for λ/D"
 authors = [{ name = "Corey Spohn", email = "corey.a.spohn@nasa.gov" }]
-dynamic = ['readme']
+dynamic = ['readme', 'version']
 license = { file = "LICENSE" }
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -21,6 +20,9 @@ dependencies = ["astropy >= 5.0.0"]
 [project.urls]
 Homepage = "https://github.com/CoreySpohn/lod_unit"
 Issues = "https://github.com/CoreySpohn/lod_unit/issues"
+
+[tool.hatch.version]
+source = "vcs"
 
 [tool.hatch.metadata.hooks.fancy-pypi-readme]
 content-type = "text/markdown"
