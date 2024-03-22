@@ -61,6 +61,7 @@ def lod_eq(lam, D):
             <Quantity 0.03093972 arcsec>
     """
 
+    # Conversion functions
     def lod_to_rad(lod_val):
         return (lod_val * (lam / D)).decompose().value * u.rad
 
