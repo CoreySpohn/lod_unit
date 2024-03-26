@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/CoreySpohn/lod_unit/compare/v1.4.1...v1.4.2) (2024-03-26)
+
+
+### Bug Fixes
+
+* **icon:** Added icon ([#16](https://github.com/CoreySpohn/lod_unit/issues/16)) ([bd2f7a3](https://github.com/CoreySpohn/lod_unit/commit/bd2f7a37862294d8fa7ed96fa48985a390ce1b87))
+
 ## [1.4.1](https://github.com/CoreySpohn/lod_unit/compare/v1.4.0...v1.4.1) (2024-03-26)
 
 
