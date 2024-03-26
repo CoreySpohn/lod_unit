@@ -1,10 +1,10 @@
 """Initialization for the λ/D unit and equivalency conversion module.
 
-This module makes available the `lod` unit, representing the ratio of
-wavelength to diameter (λ/D), and `lod_eq`, a function providing an
+This module makes available the :py:data:`lod`: unit, representing the ratio of
+wavelength to diameter (λ/D), and :py:func:`lod_eq`:, a function providing an
 equivalency for converting between λ/D and standard angular units. These tools
-are designed to facilitate calculations and conversions in optical systems
-and astronomical observations where λ/D is a commonly used metric.
+are designed to facilitate calculations and conversions in optical systems and
+astronomical observations where λ/D is a commonly used metric.
 
 The module is built on the Astropy units and equivalencies framework, ensuring
 compatibility with the Astropy ecosystem.
