@@ -19,4 +19,4 @@ Available Items:
 __all__ = ["lod", "lod_eq"]
 from .lod_unit import lod, lod_eq
 
-from .version import __version__ as __version__
+from ._version import __version__
