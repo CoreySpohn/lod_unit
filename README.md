@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="_static/logo.png" alt="lod_unit logo" />
+  <img width = 100 src="https://raw.githubusercontent.com/coreyspohn/lod_unit/main/docs/_static/logo.png" alt="lod_unit logo" />
 </p>
 
 # lod_unit
@@ -29,7 +29,7 @@ separations_as.to(lod, lod_eq(lam, diam))
 >> <Quantity [ 9.69627362, 48.48136811, 96.96273622] λ/D>
 ```
 
-### Hey Corey, why did you spend so much time on this package?
+### Gosh Corey, that's a lot of releases with no changes
 
-This was a testing ground for me to set up different GitHub tools on the
-assumption no one would notice.
+This was a testing place for GitHub tools on the assumption no one would
+notice. Go away.
