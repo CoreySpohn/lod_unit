@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.5](https://github.com/CoreySpohn/lod_unit/compare/v1.4.4...v1.4.5) (2024-03-26)
+
+
+### Bug Fixes
+
+* **main:** Added link to readthedocs ([dee37d9](https://github.com/CoreySpohn/lod_unit/commit/dee37d9041da7be1e036ace6f709edf3b13c5b12))
+
 ## [1.4.4](https://github.com/CoreySpohn/lod_unit/compare/v1.4.3...v1.4.4) (2024-03-26)
 
 
