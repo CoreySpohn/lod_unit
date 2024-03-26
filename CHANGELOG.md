@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/CoreySpohn/lod_unit/compare/v1.4.3...v1.4.4) (2024-03-26)
+
+
+### Bug Fixes
+
+* **main:** Add favicon ico file ([b3b99fe](https://github.com/CoreySpohn/lod_unit/commit/b3b99feea24a47e0d7bce8468852e2905fb1c8c3))
+
 ## [1.4.3](https://github.com/CoreySpohn/lod_unit/compare/v1.4.2...v1.4.3) (2024-03-26)
 
 
