@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/CoreySpohn/lod_unit/compare/v1.3.0...v1.4.0) (2024-03-26)
+
+
+### Features
+
+* Readthedocs ([#11](https://github.com/CoreySpohn/lod_unit/issues/11)) ([8e8dcbf](https://github.com/CoreySpohn/lod_unit/commit/8e8dcbffc20dba243abb6bb064319588a6a7e704))
+
 ## [1.3.0](https://github.com/CoreySpohn/lod_unit/compare/v1.2.0...v1.3.0) (2024-03-26)
 
 
