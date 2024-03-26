@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/CoreySpohn/lod_unit/compare/v1.4.0...v1.4.1) (2024-03-26)
+
+
+### Bug Fixes
+
+* **version:** Updating the way version files are created ([#14](https://github.com/CoreySpohn/lod_unit/issues/14)) ([e4b03ee](https://github.com/CoreySpohn/lod_unit/commit/e4b03ee7723105226391d56a89feebfc479c3268))
+
 ## [1.4.0](https://github.com/CoreySpohn/lod_unit/compare/v1.3.0...v1.4.0) (2024-03-26)
 
 
