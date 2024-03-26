@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/CoreySpohn/lod_unit/compare/v1.5.0...v1.5.1) (2024-03-26)
+
+
+### Bug Fixes
+
+* **main:** Removed inclusion of the _version.py file in autoapi ([39ba2c7](https://github.com/CoreySpohn/lod_unit/commit/39ba2c7c248b93bc5d838f0b798f8cf454e12d5d))
+
 ## [1.5.0](https://github.com/CoreySpohn/lod_unit/compare/v1.4.5...v1.5.0) (2024-03-26)
 
 
