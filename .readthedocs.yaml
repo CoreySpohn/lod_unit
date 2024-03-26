@@ -11,6 +11,9 @@ python:
   install:
     - method: pip
       path: .
+      extra_requirements:
+        # Install with the [docs] flag for sphinx docs specific extensions
+        - docs
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
