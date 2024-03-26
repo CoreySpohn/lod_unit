@@ -1,5 +1,10 @@
+<p align="center">
+  <img src="_static/logo.png" alt="lod_unit logo" />
+</p>
+
 # lod_unit
-This is set up to make it easy to keep coronagraph information in λ/D space with an astropy unit called `lod` ("Lambda Over D"). Convert into angular units (or vise versa) with an astropy [Equivalency](https://docs.astropy.org/en/stable/units/equivalencies.html) relationship `lod_eq`.
+
+This is set up to make it easy to keep coronagraph information in λ/D space with an astropy unit called `lod` ("<ins>L</ins>ambda <ins>O</ins>ver <ins>D</ins>"). Convert into angular units (or vise versa) with an astropy [Equivalency](https://docs.astropy.org/en/stable/units/equivalencies.html) relationship `lod_eq`.
 
 
 
@@ -23,3 +28,8 @@ separations_as = [0.1, 0.5, 1]*u.arcsec
 separations_as.to(lod, lod_eq(lam, diam))
 >> <Quantity [ 9.69627362, 48.48136811, 96.96273622] λ/D>
 ```
+
+### Hey Corey, why did you spend so much time on this package?
+
+This was a testing ground for me to set up different GitHub tools on the
+assumption no one would notice.
