@@ -18,7 +18,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 language = "Python"
 
 autoapi_dirs = ["../src"]
-autoapi_ignore = ["**/version.py"]
+autoapi_ignore = ["**/*version.py"]
 autodoc_typehints = "description"
 
 # -- Options for HTML output -------------------------------------------------
