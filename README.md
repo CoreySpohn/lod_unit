@@ -14,7 +14,7 @@ pip install lod_unit
 Typical use will look like
 ```python
 import astropy.units as u
-from lod_unit.lod_unit import lod, lod_eq
+from lod_unit import lod, lod_eq
 
 diam = 10*u.m
 lam = 500*u.nm
