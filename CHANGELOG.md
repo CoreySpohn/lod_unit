@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/CoreySpohn/lod_unit/compare/v1.4.5...v1.5.0) (2024-03-26)
+
+
+### Features
+
+* **main:** Added changelog to documentation ([b06a727](https://github.com/CoreySpohn/lod_unit/commit/b06a72755489451ee7a74f518a8309eaa6606c6f))
+
+
+### Bug Fixes
+
+* **main:** Cleaning up images ([8b9fab9](https://github.com/CoreySpohn/lod_unit/commit/8b9fab9378c091fd4a270ff7ec95126aac91a4a8))
+
 ## [1.4.5](https://github.com/CoreySpohn/lod_unit/compare/v1.4.4...v1.4.5) (2024-03-26)
 
 
