@@ -1,11 +1,13 @@
-"""Defines a unit for λ/D, lod, that can be imported and an equivalency, lod_eq, to convert to angular units."""
+"""Defines a unit for λ/D, :py:data:`lod`, that can be imported and an equivalency, :py:func:`lod_eq`, to convert to angular units."""
 
 from astropy.units import Quantity
 from astropy.units.equivalencies import Equivalency
 import astropy.units as u
 
-# Creating a unit for lambda/D
 lod = u.def_unit("λ/D")
+"""
+An astropy BaseUnit representing the ratio of wavelength to diameter (λ/D).
+"""
 
 
 def lod_eq(lam: Quantity, D: Quantity) -> Equivalency:

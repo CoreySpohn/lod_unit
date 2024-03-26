@@ -10,10 +10,13 @@ The module is built on the Astropy units and equivalencies framework, ensuring
 compatibility with the Astropy ecosystem.
 
 Available Items:
-- lod: A unit representing λ/D.
-- lod_eq: A function to convert between λ/D and angular units, given wavelength
-  and diameter.
+
+- :py:data:`lod`: A unit representing λ/D.
+
+- :py:func:`lod_eq`: A function to convert between λ/D and angular units, given wavelength and diameter.
 """
 
 __all__ = ["lod", "lod_eq"]
 from .lod_unit import lod, lod_eq
+
+from .version import __version__ as __version__
