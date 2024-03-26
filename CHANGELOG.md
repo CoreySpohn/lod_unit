@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/CoreySpohn/lod_unit/compare/v1.1.2...v1.2.0) (2024-03-26)
+
+
+### Features
+
+* Adding doc-style checks with ruff ([2b263e8](https://github.com/CoreySpohn/lod_unit/commit/2b263e8bc782b604cfab4272d086fabe08d1420c))
+* Adding pyright type checking ([2b263e8](https://github.com/CoreySpohn/lod_unit/commit/2b263e8bc782b604cfab4272d086fabe08d1420c))
+
 ## [1.1.2](https://github.com/CoreySpohn/lod_unit/compare/v1.1.1...v1.1.2) (2024-03-22)
 
 
