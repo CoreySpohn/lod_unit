@@ -4,9 +4,7 @@
 
 # lod_unit
 
-This is set up to make it easy to keep coronagraph information in λ/D space with an astropy unit called `lod` ("<ins>L</ins>ambda <ins>O</ins>ver <ins>D</ins>"). Convert into angular units (or vise versa) with an astropy [Equivalency](https://docs.astropy.org/en/stable/units/equivalencies.html) relationship `lod_eq`.
-
-
+This is set up to make it easy to keep coronagraph information in λ/D space with an astropy unit called `lod` ("<ins>L</ins>ambda <ins>O</ins>ver <ins>D</ins>"). Convert into angular units (or vise versa) with an astropy [Equivalency](https://docs.astropy.org/en/stable/units/equivalencies.html) relationship `lod_eq`. See documentation [here](https://lod-unit.readthedocs.io).
 
 ## Installation
 ```bash
