@@ -10,7 +10,12 @@ release = lod_unit.__version__
 
 # -- General configuration ---------------------------------------------------
 
-extensions = ["myst_parser", "autoapi.extension", "sphinx.ext.autodoc"]
+extensions = [
+    "myst_parser",
+    "autoapi.extension",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.viewcode",
+]
 
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
