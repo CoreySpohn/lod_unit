@@ -11,4 +11,4 @@ def tests(session: nox.Session):
     # Install all test dependencies
     session.install(".[test]")
     # Run pytest against the tests directory
-    session.run("pytest", "tests/")
+    session.run("pytest", "tests/", "--cov=lod_unit")

@@ -25,7 +25,7 @@ docs = [
   "sphinx-autoapi",
   "sphinx_autodoc_typehints",
 ]
-test = ["nox", "pytest", "hypothesis"]
+test = ["nox", "pytest", "hypothesis", "pytest-cov"]
 
 [project.urls]
 Homepage = "https://github.com/CoreySpohn/lod_unit"
