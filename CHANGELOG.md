@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.6.0](https://github.com/CoreySpohn/lod_unit/compare/v1.5.2...v1.6.0) (2024-03-28)
+
+
+### Features
+
+* **main:** Added test ([cc23b27](https://github.com/CoreySpohn/lod_unit/commit/cc23b27486e29285fafacc9458964b52589786d8))
+* **main:** Adding coverage report and a codecov.io workflow ([168e96a](https://github.com/CoreySpohn/lod_unit/commit/168e96a9ca3f7145abd165fb8d85dd9715bbd43b))
+
+
+### Bug Fixes
+
+* **main:** Coverage working ([0404d94](https://github.com/CoreySpohn/lod_unit/commit/0404d94fd28678efbdc665055696a55d5e37b02f))
+* **main:** Updating coverage system ([a90c92b](https://github.com/CoreySpohn/lod_unit/commit/a90c92b74aa69c306a72ca41881849ab0ec687a8))
+
 ## [1.5.2](https://github.com/CoreySpohn/lod_unit/compare/v1.5.1...v1.5.2) (2024-03-28)
 
 
