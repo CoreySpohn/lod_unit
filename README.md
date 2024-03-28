@@ -1,19 +1,13 @@
 <p align="center">
   <img width = 100 src="https://raw.githubusercontent.com/coreyspohn/lod_unit/main/docs/_static/logo.png" alt="lod_unit logo" />
   <br><br>
-<a href="https://codecov.io/gh/CoreySpohn/lod_unit">
- <img src="https://codecov.io/gh/CoreySpohn/lod_unit/graph/badge.svg?token=UCUVYCRWVG"/>
-</a>
-<a href="https://pypi.org/project/lod_unit/">
-    <img src="https://img.shields.io/pypi/v/lod_unit.svg" alt="PyPI" />
-</a>
-<a href="https://lod-unit.readthedocs.io">
-    <img src="https://readthedocs.org/projects/lod_unit/badge/?version=latest" alt="Documentation Status" />
-</a>
-<a href="https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/">
-  <img src="https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/badge.svg?branch=main">
-</a>
 </p>
+
+[![Codecov](https://codecov.io/gh/CoreySpohn/lod_unit/graph/badge.svg?token=UCUVYCRWVG&style=flat-square)](https://codecov.io/gh/CoreySpohn/lod_unit)
+[![PyPI](https://img.shields.io/pypi/v/lod_unit.svg?style=flat-square)](https://pypi.org/project/lod_unit/)
+[![Documentation Status](https://readthedocs.org/projects/lod_unit/badge/?version=latest&style=flat-square)](https://lod-unit.readthedocs.io)
+[![CI](https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/)
+- - -
 
 # lod_unit
 
