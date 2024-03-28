@@ -1,4 +1,4 @@
-name: Workflow for lod_unit Codecov
+name: CI
 
 on: [push, pull_request]
 
