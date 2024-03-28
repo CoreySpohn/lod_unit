@@ -3,10 +3,10 @@
   <br><br>
 </p>
 
-[![Codecov](https://codecov.io/gh/CoreySpohn/lod_unit/graph/badge.svg?token=UCUVYCRWVG&style=flat-square)](https://codecov.io/gh/CoreySpohn/lod_unit)
+[![Codecov](https://codecov.io/gh/CoreySpohn/lod_unit/graph/badge.svg?token=UCUVYCRWVG?style=flat-square)](https://codecov.io/gh/CoreySpohn/lod_unit)
 [![PyPI](https://img.shields.io/pypi/v/lod_unit.svg?style=flat-square)](https://pypi.org/project/lod_unit/)
-[![Documentation Status](https://readthedocs.org/projects/lod_unit/badge/?version=latest&style=flat-square)](https://lod-unit.readthedocs.io)
-[![CI](https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/)
+[![Documentation Status](https://readthedocs.org/projects/lod_unit/badge/?version=latest?style=flat-square)](https://lod-unit.readthedocs.io)
+[![CI](https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/badge.svg?style=flat-square)](https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/)
 - - -
 
 # lod_unit
