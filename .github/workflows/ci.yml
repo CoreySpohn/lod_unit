@@ -20,16 +20,16 @@ jobs:
         run: |
           pip install .[test]
 
-      - name: Run ATS
-        uses: codecov/codecov-ats@v0
-        env:
-          # CODECOV_STATIC_TOKEN: ${{ secrets.CODECOV_STATIC_TOKEN }}
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      # - name: Run ATS
+      #   uses: codecov/codecov-ats@v0
+      #   env:
+      #     # CODECOV_STATIC_TOKEN: ${{ secrets.CODECOV_STATIC_TOKEN }}
+      #     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
       - name: Run tests with Nox and collect coverage
         run: nox
-        env:
-          CODECOV_ATS_TESTS: ${{ env.CODECOV_ATS_TESTS }}
+        # env:
+        #   CODECOV_ATS_TESTS: ${{ env.CODECOV_ATS_TESTS }}
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4-beta
