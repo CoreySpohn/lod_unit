@@ -4,6 +4,15 @@
 <a href="https://codecov.io/gh/CoreySpohn/lod_unit">
  <img src="https://codecov.io/gh/CoreySpohn/lod_unit/graph/badge.svg?token=UCUVYCRWVG"/>
 </a>
+<a href="https://pypi.org/project/lod_unit/">
+    <img src="https://img.shields.io/pypi/v/lod_unit.svg" alt="PyPI" />
+</a>
+<a href="https://lod-unit.readthedocs.io">
+    <img src="https://readthedocs.org/projects/lod_unit/badge/?version=latest" alt="Documentation Status" />
+</a>
+<a href="https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/">
+  <img src="https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/badge.svg?branch=main">
+</a>
 </p>
 
 # lod_unit
