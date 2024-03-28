@@ -3,39 +3,13 @@
   <br><br>
 </p>
 
-[![Codecov](https://img.shields.io/codecov/c/github/coreyspohn/lod_unit?token=UCUVYCRWVG&style=flat-square&logo=codecov)](https://codecov.io/gh/CoreySpohn/lod_unit)
-[![PyPI](https://img.shields.io/pypi/v/lod_unit.svg?style=flat-square)](https://pypi.org/project/lod_unit/)
-[![Documentation Status](https://readthedocs.org/projects/lod_unit/badge/?version=latest&style=flat-square)](https://lod-unit.readthedocs.io)
-[![CI](https://img.shields.io/github/actions/workflow/status/coreyspohn/lod_unit/ci.yml?branch=main&logo=github&style=flat-square)](https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/)
 <p align="center">
-  <a href="https://codecov.io/gh/CoreySpohn/lod_unit">
-    <img src="https://img.shields.io/codecov/c/github/coreyspohn/lod_unit?token=UCUVYCRWVG&style=flat-square&logo=codecov" alt="Codecov"/>
-  </a>
-  <a href="https://pypi.org/project/lod_unit/">
-    <img src="https://img.shields.io/pypi/v/lod_unit.svg?style=flat-square" alt="PyPI"/>
-  </a>
-  <a href="https://lod-unit.readthedocs.io">
-    <img src="https://readthedocs.org/projects/lod_unit/badge/?version=latest&style=flat-square" alt="Documentation Status"/>
-  </a>
-  <a href="https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/">
-    <img src="https://img.shields.io/github/actions/workflow/status/coreyspohn/lod_unit/ci.yml?branch=main&logo=github&style=flat-square" alt="CI"/>
-  </a>
+  <a href="https://codecov.io/gh/CoreySpohn/lod_unit"><img src="https://img.shields.io/codecov/c/github/coreyspohn/lod_unit?token=UCUVYCRWVG&style=flat-square&logo=codecov" alt="Codecov"/></a>
+  <a href="https://pypi.org/project/lod_unit/"><img src="https://img.shields.io/pypi/v/lod_unit.svg?style=flat-square" alt="PyPI"/></a>
+  <a href="https://lod-unit.readthedocs.io"><img src="https://readthedocs.org/projects/lod_unit/badge/?version=latest&style=flat-square" alt="Documentation Status"/></a>
+  <a href="https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/"><img src="https://img.shields.io/github/actions/workflow/status/coreyspohn/lod_unit/ci.yml?branch=main&logo=github&style=flat-square" alt="CI"/></a>
 </p>
 
-<p align="center">
-  <a href="https://codecov.io/gh/CoreySpohn/lod_unit">
-    <img src="https://img.shields.io/codecov/c/github/coreyspohn/lod_unit?token=UCUVYCRWVG&style=flat-square&logo=codecov" alt="Codecov"/>
-  </a>&nbsp;
-  <a href="https://pypi.org/project/lod_unit/">
-    <img src="https://img.shields.io/pypi/v/lod_unit.svg?style=flat-square" alt="PyPI"/>
-  </a>&nbsp;
-  <a href="https://lod-unit.readthedocs.io">
-    <img src="https://readthedocs.org/projects/lod_unit/badge/?version=latest&style=flat-square" alt="Documentation Status"/>
-  </a>&nbsp;
-  <a href="https://github.com/coreyspohn/lod_unit/actions/workflows/ci.yml/">
-    <img src="https://img.shields.io/github/actions/workflow/status/coreyspohn/lod_unit/ci.yml?branch=main&logo=github&style=flat-square" alt="CI"/>
-  </a>
-</p>
 
 
 
