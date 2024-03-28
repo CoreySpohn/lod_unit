@@ -1,5 +1,8 @@
 <p align="center">
   <img width = 100 src="https://raw.githubusercontent.com/coreyspohn/lod_unit/main/docs/_static/logo.png" alt="lod_unit logo" />
+<a href="https://codecov.io/gh/CoreySpohn/lod_unit">
+ <img src="https://codecov.io/gh/CoreySpohn/lod_unit/graph/badge.svg?token=UCUVYCRWVG"/>
+</a>
 </p>
 
 # lod_unit
