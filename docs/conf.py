@@ -38,7 +38,5 @@ html_theme_options = {
     "path_to_docs": "docs",
     "repository_url": "https://www.github.com/CoreySpohn/lod_unit",
     "repository_branch": "main",
-    # "use_edit_page_button": True,
     "use_repository_button": True,
-    # "use_issues_button": True,
 }
