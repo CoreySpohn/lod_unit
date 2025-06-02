@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/CoreySpohn/lod_unit/compare/v1.6.0...v1.7.0) (2025-06-02)
+
+
+### Features
+
+* Add lod and lod_eq to astropy.units directly when importing ([5aa2894](https://github.com/CoreySpohn/lod_unit/commit/5aa289470926427c50bde14f2cbb63bd808c222a))
+
 ## [1.6.0](https://github.com/CoreySpohn/lod_unit/compare/v1.5.2...v1.6.0) (2024-03-28)
 
 
