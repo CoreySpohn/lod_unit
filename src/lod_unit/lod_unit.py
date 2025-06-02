@@ -1,5 +1,7 @@
 """Defines a unit for λ/D, :py:data:`lod`, that can be imported and an equivalency, :py:func:`lod_eq`, to convert to angular units."""
 
+import functools
+
 from astropy.units import Quantity, IrreducibleUnit
 from astropy.units.equivalencies import Equivalency
 import astropy.units as u
@@ -10,6 +12,7 @@ An astropy IrreducibleUnit representing the ratio of wavelength to diameter (λ/
 """
 
 
+@functools.cache
 def lod_eq(lam: Quantity, D: Quantity) -> Equivalency:
     """Convert between λ/D and angular units.
 

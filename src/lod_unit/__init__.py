@@ -9,6 +9,9 @@ astronomical observations where λ/D is a commonly used metric.
 The module is built on the Astropy units and equivalencies framework, ensuring
 compatibility with the Astropy ecosystem.
 
+When imported, this module automatically extends astropy's units system to make
+the λ/D unit available through the standard astropy.units interface.
+
 Available Items:
 
 - :py:data:`lod` A unit representing λ/D.
@@ -18,5 +21,9 @@ Available Items:
 
 __all__ = ["lod", "lod_eq"]
 from .lod_unit import lod, lod_eq
+import astropy.units as u
 
 from ._version import __version__
+
+setattr(u, "lod", lod)
+setattr(u.equivalencies, "lod", lod_eq)
