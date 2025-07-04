@@ -2,13 +2,17 @@
 
 import functools
 
-from astropy.units import Quantity, IrreducibleUnit
-from astropy.units.equivalencies import Equivalency
+from astropy.units import (
+    Equivalency,
+    Quantity,
+    Unit,
+    UnitBase,
+)
 import astropy.units as u
 
-lod: IrreducibleUnit = u.def_unit("λ/D", doc="A unit for λ/D")  # type: ignore
+lod: UnitBase = Unit("λ/D", represents=u.rad, doc="A unit for λ/D")  # type: ignore
 """
-An astropy IrreducibleUnit representing the ratio of wavelength to diameter (λ/D).
+An astropy Unit representing the ratio of wavelength to diameter (λ/D).
 """
 
 
@@ -36,8 +40,8 @@ def lod_eq(lam: Quantity, D: Quantity) -> Equivalency:
         >>> angseparation.to(u.arcsec, lod_eq(lam, diam))
             <Quantity 0.03093972 arcsec>
     """
-    _lam = lam.to(u.m).value
-    _D = D.to(u.m).value
+    _lam = lam.to_value(u.m)
+    _D = D.to_value(u.m)
 
     # Conversion functions
     def lod_to_rad(lod_val: float) -> float:
@@ -46,6 +50,6 @@ def lod_eq(lam: Quantity, D: Quantity) -> Equivalency:
     def rad_to_lod(rad_val: float) -> float:
         return rad_val * (_D / _lam)
 
-    base_equivalence = [(lod, u.rad, lod_to_rad, rad_to_lod)]
+    base_equivalence = [(lod, lod, lod_to_rad, rad_to_lod)]
 
     return Equivalency(base_equivalence)
