@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/CoreySpohn/lod_unit/compare/v1.7.0...v1.8.0) (2025-07-05)
+
+
+### Features
+
+* Give explicit unit representation to allow for conversion of compound units ([bb0b5f6](https://github.com/CoreySpohn/lod_unit/commit/bb0b5f654e6291fdce8f2e49f87bc27da195b8e3))
+
+
+### Bug Fixes
+
+* Now properly handles pixel scale conversions ([0c7863f](https://github.com/CoreySpohn/lod_unit/commit/0c7863f485fe848a0c5bdef702f4f54bf0a13d06))
+
 ## [1.7.0](https://github.com/CoreySpohn/lod_unit/compare/v1.6.0...v1.7.0) (2025-06-02)
 
 
