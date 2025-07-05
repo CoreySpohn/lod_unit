@@ -2,17 +2,12 @@
 
 import functools
 
-from astropy.units import (
-    Equivalency,
-    Quantity,
-    Unit,
-    UnitBase,
-)
+from astropy.units import Equivalency, Quantity
 import astropy.units as u
 
-lod: UnitBase = Unit("λ/D", represents=u.rad, doc="A unit for λ/D")  # type: ignore
+lod = u.def_unit("λ/D", doc="A unit for λ/D")  # type: ignore
 """
-An astropy Unit representing the ratio of wavelength to diameter (λ/D).
+An astropy unit representing the ratio of wavelength to diameter (λ/D).
 """
 
 
@@ -43,13 +38,13 @@ def lod_eq(lam: Quantity, D: Quantity) -> Equivalency:
     _lam = lam.to_value(u.m)
     _D = D.to_value(u.m)
 
-    # Conversion functions
     def lod_to_rad(lod_val: float) -> float:
         return lod_val * (_lam / _D)
 
-    def rad_to_lod(rad_val: float) -> float:
-        return rad_val * (_D / _lam)
+    def rad_to_lod(r):
+        return r * (_D / _lam)
 
-    base_equivalence = [(lod, lod, lod_to_rad, rad_to_lod)]
+    base_equivalence = [(lod, u.rad, lod_to_rad, rad_to_lod)]
+    compound_equivalence = [(lod / u.pix, u.rad / u.pix, lod_to_rad, rad_to_lod)]
 
-    return Equivalency(base_equivalence)
+    return Equivalency(base_equivalence + compound_equivalence)
